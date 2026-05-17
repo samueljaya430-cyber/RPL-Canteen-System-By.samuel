@@ -1,24 +1,59 @@
-![Tampilan Aplikasi](Screenshot_2026-05-17-14-08-01-131_ru.iiec.pydroid3.jpg)
-# 🏪 RPL Canteen Elite Edition (V9.0 - FINAL)
+# 🏪 RPL Canteen Ultimate V17 (Final Version)
 
-Aplikasi manajemen kasir kantin sekolah berbasis **Python** dengan sistem database JSON. Proyek ini dirancang untuk memudahkan pencatatan transaksi dan stok secara digital.
+![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)
+![Status](https://img.shields.io/badge/Status-Stable-green.svg)
+
+Aplikasi kasir kantin berbasis Terminal (TUI) yang dikembangkan untuk mempermudah manajemen stok dan transaksi di kantin sekolah. Versi V17 ini adalah versi paling stabil dengan fitur perlindungan data otomatis.
+
+---
+
+## 📸 Screenshot Aplikasi
+
+<details>
+  <summary>Klik untuk melihat galeri foto aplikasi 📸</summary>
+  
+  ### 1. Menu Utama & Saldo Kas
+  ![Menu Utama](Screenshot_2026-05-17-19-02-59-089_ru.iiec.pydroid3.jpg)
+  
+  ### 2. Form Identitas (Nama & Kelas)
+  ![Form Identitas](Screenshot_2026-05-17-19-03-17-887_ru.iiec.pydroid3.jpg)
+  
+  ### 3. Pilihan Menu
+  ![Pilihan Rasa](Screenshot_2026-05-17-19-03-48-811_ru.iiec.pydroid3.jpg)
+  
+  ### 4. Metode Pembayaran & Struk
+  ![Transaksi]()
+  
+</details>
 
 ---
 
 ## 🚀 Fitur Unggulan
-- **💾 Database JSON**: Data tidak hilang saat aplikasi ditutup.
-- **📦 Inventaris Pro**: Tambah menu dan stok secara dinamis.
-- **💳 Sistem Hutang**: Pencatatan otomatis pelanggan yang belum lunas.
-- **📊 Laporan Penjualan**: Rekapitulasi barang paling laris.
+
+- **🔐 Secured Entry**: Sistem wajib input Nama & Kelas sebelum transaksi untuk validasi data pembeli.
+- **🥤 Smart Drink System**: Deteksi otomatis untuk menu minuman rasa-rasa (Pop Ice, Nutrisari, Teh Sisri).
+- **💸 Triple Payment**: Mendukung pembayaran melalui **Tunai**, **QRIS**, dan **Transfer Bank**.
+- **📈 Auto-Restock & Budgeting**: Mengurangi saldo kas kantin secara otomatis saat membeli stok baru (kulakan).
+- **🛡️ Anti-Crash Database**: Menggunakan sistem sinkronisasi JSON yang mencegah error `KeyError`.
+- **📜 Transaction Logging**: Riwayat 15 transaksi terakhir disimpan secara permanen di database.
 
 ---
 
-## 📂 Cara Penggunaan
-1. Pastikan file `.py` dan `.json` ada di folder yang sama.
-2. Jalankan `rpl_canteen_elite_wow.py` di **Pydroid 3**.
-3. Input Nama, Kelas, dan Pesanan sesuai instruksi terminal.
+## 🛠️ Cara Penggunaan
+
+1. **Jalankan Aplikasi**: Buka file `rpl_canteen_elite_wow.py` di Pydroid 3 atau PC.
+2. **Menu Penjualan**: Pilih [1], masukkan nama dan kelas, lalu pilih barang yang ingin dibeli.
+3. **Menu Restock**: Pilih [2] jika ingin menambah stok barang menggunakan uang kas kantin.
+4. **Cek Laporan**: Pilih [4] untuk melihat siapa saja yang sudah belanja hari ini.
+5. **Simpan**: Selalu pilih menu [5] untuk keluar agar data tersimpan dengan aman ke file JSON.
 
 ---
 
-## 👨‍💻 Developer
-**Samuel** - Siswa RPL
+## 🏗️ Struktur Proyek
+
+- `rpl_canteen_elite_wow.py`: File utama aplikasi Python.
+- `rpl_canteen_elite_db.json`: File database (dibuat otomatis oleh sistem).
+- `README.md`: Dokumentasi proyek ini.
+
+---
+**Developed by Samuel (RPL Team) 🚀**
