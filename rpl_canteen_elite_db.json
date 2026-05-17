@@ -1,0 +1,28 @@
+{
+    "stok": {
+        "Nasi Goreng": 10,
+        "Mie Ayam": 13,
+        "Gorengan": 50,
+        "Pop Ice": 100,
+        "Nutrisari": 100,
+        "Teh Sisri": 100,
+        "Buku Tulis": 25,
+        "Pulpen": 50,
+        "Pensil": 30
+    },
+    "harga": {
+        "Nasi Goreng": 10000,
+        "Mie Ayam": 12000,
+        "Gorengan": 2000,
+        "Pop Ice": 5000,
+        "Nutrisari": 3000,
+        "Teh Sisri": 2000,
+        "Buku Tulis": 5000,
+        "Pulpen": 3000,
+        "Pensil": 2000
+    },
+    "saldo_kas": 524000,
+    "history": [
+        "[17/05/2026 18:29:13] JUAL: Mie Ayam x2 | Rp24,000 | Tunai | samuel (12)"
+    ]
+}
