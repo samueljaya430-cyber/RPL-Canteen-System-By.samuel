@@ -1,5 +1,4 @@
-![Tampilan Aplikasi]Screenshot_2026-05-17-14-08-01-131_ru.iiec.pydroid3.jpg
-
+![Tampilan Aplikasi](Screenshot_2026-05-17-14-08-01-131_ru.iiec.pydroid3.jpg)
 # 🏪 RPL Canteen Elite Edition (V9.0 - FINAL)
 
 Aplikasi manajemen kasir kantin sekolah berbasis **Python** dengan sistem database JSON. Proyek ini dirancang untuk memudahkan pencatatan transaksi dan stok secara digital.
