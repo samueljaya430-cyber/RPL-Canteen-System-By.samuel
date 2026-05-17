@@ -22,7 +22,7 @@ Aplikasi kasir kantin berbasis Terminal (TUI) yang dikembangkan untuk mempermuda
   ![Pilihan Rasa](Screenshot_2026-05-17-19-03-48-811_ru.iiec.pydroid3.jpg)
   
   ### 4. Metode Pembayaran & Struk
-  ![Transaksi]()
+  ![Transaksi](Screenshot_2026-05-17-19-04-43-435_ru.iiec.pydroid3.jpg)
   
 </details>
 
