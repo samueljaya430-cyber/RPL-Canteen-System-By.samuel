@@ -1,4 +1,4 @@
-# 🏪 RPL Canteen Ultimate V17 (Final Version)
+# 🏪 RPL Canteen Wow
 
 ![Python](https://img.shields.io/badge/Python-3.7%2B-blue.svg)
 ![Status](https://img.shields.io/badge/Status-Stable-green.svg)
