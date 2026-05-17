@@ -56,4 +56,4 @@ Aplikasi kasir kantin berbasis Terminal (TUI) yang dikembangkan untuk mempermuda
 - `README.md`: Dokumentasi proyek ini.
 
 ---
-**Developed by Samuel (RPL Team) 🚀**
+**Developed by Samuel(Chajira 차지라)🚀**
